@@ -1,9 +1,9 @@
 import requests
 from convert_kelvin_to_celsius import kelvin
 
-api_call='http://api.openweathermap.org/data/2.5/weather?APPID=21c294cec6b1aea7b3493e98f7dd51fa&q='
+api_call='http://api.openweathermap.org/data/2.5/weather?APPID= *insert your API KEY HERE* ='
 place=input('Enter city:')
-#key=21c294cec6b1aea7b3493e98f7dd51fa
+
 
 #concatenate the input with api_call
 url_weather=api_call+place
